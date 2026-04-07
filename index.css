@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  outline: none;
+  font-weight: 100;
+}
+
+/* Mobile */
+/* @media screen and (max-wdith : 1800px) {} */
+
+.x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fcs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.fcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+

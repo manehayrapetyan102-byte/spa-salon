@@ -1,0 +1,41 @@
+.product {
+    width: 100%;
+    min-height: 100vh;
+    background: #FAFAFA;
+    padding: 75px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product>.box {
+    width: 1500px;
+    padding: 25px 0px;
+
+    h3 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .carcas {
+        width: 100%;
+        min-height: 500px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+
+        span {
+            font-size: 35px;
+            line-height: 30px;
+        }
+
+        p {
+            padding: 15px 0px;
+        }
+
+        img {
+            padding-top: 30px;
+        }
+    }
+}

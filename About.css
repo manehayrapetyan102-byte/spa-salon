@@ -1,0 +1,65 @@
+.about {
+    padding: 25px 0px;
+
+    .box {
+        width: 1500px;
+        height: 850px;
+        gap: 50px;
+
+        h3 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .carcas {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 3fr 2.3fr;
+            grid-template-rows: 100%;
+            gap: 30px;
+
+            .info {
+                background: darkred;
+            }
+        }
+    }
+}
+
+.about>.box>.carcas>.images {
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.about>.box>.carcas>.images>.detal:nth-of-type(2),
+.about>.box>.carcas>.images>.detal:nth-of-type(4) {
+    align-self: flex-end !important;
+    background-position-y: 100%;
+}
+
+.about>.box>.carcas>.images>.detal {
+    width: 20%;
+    height: 95%;
+    border-radius: 20px;
+    background: url("../pictures/all/slidEffect.png");
+    background-size: 500% 105%;
+}
+
+.about>.box>.carcas>.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+    background: white;
+
+    h3 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 23px;
+        width: 600px;
+        line-height: 30px;
+    }
+}

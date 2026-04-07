@@ -1,0 +1,58 @@
+.reviews {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../pictures/all/miniBack.png) no-repeat;
+    display: flex;
+    background-position: 50% 0%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.reviews>.box {
+    width: 1500px;
+    padding: 25px 0px;
+
+    h3 {
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+        margin-left: 89px;
+    }
+
+    .item {
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 150px;
+        gap: 50px;
+
+        .container {
+            background: white;
+            border-radius: 10px 0px;
+            display: flex;
+            flex-direction: column;
+            height: 170px;
+            justify-content: center;
+
+            img {
+                width: 70px;
+                height: 70px;
+                margin-left: 20px;
+            }
+
+            span {
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 30px;
+                margin-left: 20px;
+            }
+
+            p {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
